@@ -1,4 +1,5 @@
 ### Hi there 👋
 
 - 🔭 I’m student at 42 in Brussels.
-- 🌱 I’m currently learning C/C++ & Javascript.
+- ⌨️ I'm C developer.
+- 🌱 I’m currently learning C++.
