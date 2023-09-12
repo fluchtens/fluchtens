@@ -19,7 +19,7 @@ Passionate about computer programming, I'm currently student at 19 (42 Network) 
 
 <h3 align="left">Backend Development:</h3>
 
-[![Database](https://skillicons.dev/icons?i=nodejs,nest,mysql,postgres)](https://skillicons.dev)
+[![Database](https://skillicons.dev/icons?i=nest,prisma)](https://skillicons.dev)
 
 <h3 align="left">Tools:</h3>
 
