@@ -1,13 +1,7 @@
-const About = () => {
-  const SocialLink = ({ name, link }: { name: string; link: string }) => (
-    <a
-      href={link}
-      className="py-2 px-3 rounded-md bg-[#7364D0] hover:bg-[#867DD8]"
-    >
-      <span className="text-base font-medium">{name}</span>
-    </a>
-  );
+import { SocialLink } from "@/components/ui/SocialLink";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
 
+const About = () => {
   return (
     <div className="mt-10 flex flex-col gap-1">
       <span className="text-2xl font-semibold">Hi there 👋</span>
@@ -19,11 +13,16 @@ const About = () => {
         Passionate about new technologie and computer programming, I'm currently
         computer sciences student at 19 (@42 Network) in Brussels.
       </p>
-      <div className="flex gap-2">
-        <SocialLink name="Github" link="https://github.com/fluchtens" />
+      <div className="mt-1 flex items-center gap-2">
+        <SocialLink
+          name="Github"
+          link="https://github.com/fluchtens"
+          icon={<FaGithub className="text-xl text-white" />}
+        />
         <SocialLink
           name="Linkedin"
           link="https://www.linkedin.com/in/fluchtens"
+          icon={<FaLinkedin className="text-xl text-white" />}
         />
       </div>
     </div>
