@@ -10,7 +10,6 @@ const config: Config = {
     extend: {
       fontFamily: {
         sans: ["Montserrat", "sans-serif"],
-        // sans: ["Acumin Pro", "sans-serif"],
       },
       colors: {
         primary: "#191A19",
