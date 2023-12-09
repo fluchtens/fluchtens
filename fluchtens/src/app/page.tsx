@@ -31,8 +31,10 @@ const About = () => {
 
 export default function Home() {
   return (
-    <main className="max-w-screen-lg m-auto flex-col flex justify-center items-center gap-20">
-      <About />
+    <main className="px-4 py-5">
+      <div className="max-w-screen-lg m-auto flex flex-col justify-center items-center gap-20">
+        <About />
+      </div>
     </main>
   );
 }
