@@ -19,13 +19,13 @@ const SocialLink = ({ name, link, icon }: SocialLinkProps) => (
 
 export const About = () => {
   return (
-    <div className="flex-col flex gap-1">
-      <span className="text-2xl font-semibold">Hi there 👋</span>
-      <h1 className="text-7xl font-bold">Francois Luchtens</h1>
-      <h2 className="text-4xl font-semibold text-zinc-400">
+    <div className="flex-col flex items-center md:items-start gap-1 text-center md:text-left">
+      <span className="text-xl md:text-2xl font-semibold">Hi there 👋</span>
+      <h1 className="text-3xl md:text-6xl font-bold">Francois Luchtens</h1>
+      <h2 className="text-xl md:text-3xl font-semibold text-zinc-400">
         Full Stack Developer
       </h2>
-      <p className="text-lg font-normal text-zinc-400">
+      <p className="text-sm md:text-lg font-normal text-zinc-400">
         Passionate about new technologie and computer programming, I'm currently
         computer sciences student at 19 (@42 Network) in Brussels.
       </p>
