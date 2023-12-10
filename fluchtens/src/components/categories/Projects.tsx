@@ -55,6 +55,14 @@ export const Projects = () => (
         ]}
       />
       <ProjectElement
+        name="webserv"
+        desc="Basic HTTP server written from scratch in C++98. Created during the common
+        core of 42, it implements POST, GET and DELETE methods and integrates CGI
+        for dynamic pages."
+        source="https://github.com/fluchtens/cub3d"
+        languages={[Language.CPlusPlus]}
+      />
+      <ProjectElement
         name="cub3d"
         desc="A simple 3D raycasting rendering in C using the MiniLibX library.
           Produced during the common core of 42, this project was inspired by
