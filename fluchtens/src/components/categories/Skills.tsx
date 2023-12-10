@@ -43,7 +43,7 @@ const SkillElement = ({ name, icon }: SkillElementProps) => (
 export const Skills = () => (
   <div className="flex-col flex gap-5">
     <CategoryTitle title="Skills" />
-    <div className="flex justify-between items-start">
+    <div className="flex-col md:flex-row flex justify-between items-center md:items-start gap-3">
       <SkillCategory name="Languages">
         <SkillElement
           name="C"
