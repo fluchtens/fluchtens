@@ -12,7 +12,8 @@ const config: Config = {
         sans: ["Montserrat", "sans-serif"],
       },
       colors: {
-        primary: "#191A19",
+        primary: "#151515",
+        secondary: "#212121",
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
