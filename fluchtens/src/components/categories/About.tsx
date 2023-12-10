@@ -29,7 +29,7 @@ export const About = () => {
         Passionate about new technologie and computer programming, I'm currently
         computer sciences student at 19 (@42 Network) in Brussels.
       </p>
-      <div className="mt-1 flex items-center gap-2">
+      <div className="mt-2 flex items-center gap-2">
         <SocialLink
           name="Github"
           link="https://github.com/fluchtens"
