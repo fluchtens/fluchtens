@@ -17,22 +17,20 @@ const ProjectElement = ({
   reverse,
   languages,
 }: ProjectElementProps) => (
-  <li className="p-6 rounded-lg bg-secondary">
-    <div className="flex-col lg:flex-row flex justify-center items-start gap-6">
+  <li className="p-4 rounded-lg bg-secondary">
+    <div className="flex-col md:flex-row flex justify-center items-center md:items-start gap-6 text-center md:text-left">
       <img
         src="/projects/cub3d/cub3d_1.png"
         alt="cub3d_1.png"
-        className="max-w-[384px] w-[384px] h-[216px]"
+        className="md:max-w-[384px] md:max-h-[216px]"
       />
-      <div className="flex-col flex gap-2">
-        <div className="flex-col flex gap-1">
-          <div className="flex justify-between items-center">
-            <label className="text-3xl font-semibold">{name}</label>
-            <SoureCodeBtn link={source} />
-          </div>
-          <p className="text-base font-normal text-zinc-400">{desc}</p>
+      <div className="flex-col flex gap-1">
+        <div className="flex justify-center md:justify-between items-center gap-2">
+          <label className="text-xl md:text-2xl font-semibold">{name}</label>
+          <SoureCodeBtn link={source} />
         </div>
-        <ul className="flex-wrap flex items-center gap-2">
+        <p className="text-sm md:text-base font-normal text-zinc-400">{desc}</p>
+        <ul className="mt-2 flex-wrap flex justify-center md:justify-normal items-center gap-2">
           {languages.map((language) => (
             <LanguageElement key={language} language={language} />
           ))}
@@ -52,7 +50,7 @@ const SoureCodeBtn = ({ link }: { link: string }) => (
 );
 
 export const Projects = () => (
-  <div className="flex-col flex gap-5">
+  <div className="flex-col flex gap-2 md:gap-5">
     <CategoryTitle title="Projects" />
     <ul className="flex-col flex gap-4">
       <ProjectElement

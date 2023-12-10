@@ -23,8 +23,10 @@ interface SkillCategoryProps {
 
 const SkillCategory = ({ name, children }: SkillCategoryProps) => (
   <div className="flex-col flex justify-center items-center gap-1 text-center">
-    <label className="text-2xl font-semibold">{name}</label>
-    <ul className="flex-col flex text-lg font-medium">{children}</ul>
+    <label className="text-xl md:text-2xl font-semibold">{name}</label>
+    <ul className="flex-col flex text-base md:text-lg font-medium text-zinc-400">
+      {children}
+    </ul>
   </div>
 );
 
@@ -36,73 +38,34 @@ interface SkillElementProps {
 const SkillElement = ({ name, icon }: SkillElementProps) => (
   <li className="flex justify-center items-center gap-1.5">
     {icon}
-    <span className="text-zinc-400">{name}</span>
+    <span className="">{name}</span>
   </li>
 );
 
 export const Skills = () => (
-  <div className="flex-col flex gap-5">
+  <div className="flex-col flex gap-2 md:gap-5">
     <CategoryTitle title="Skills" />
     <div className="flex-col md:flex-row flex justify-between items-center md:items-start gap-3">
       <SkillCategory name="Languages">
-        <SkillElement
-          name="C"
-          icon={<SiCoursera className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="C++"
-          icon={<SiCplusplus className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="Javascript"
-          icon={<SiJavascript className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="Typescript"
-          icon={<SiTypescript className="text-xl text-zinc-400" />}
-        />
+        <SkillElement name="C" icon={<SiCoursera />} />
+        <SkillElement name="C++" icon={<SiCplusplus />} />
+        <SkillElement name="Javascript" icon={<SiJavascript />} />
+        <SkillElement name="Typescript" icon={<SiTypescript />} />
       </SkillCategory>
       <SkillCategory name="Frontend">
-        <SkillElement
-          name="HTML"
-          icon={<SiHtml5 className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="CSS"
-          icon={<SiCss3 className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="Tailwind"
-          icon={<SiTailwindcss className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="React"
-          icon={<SiReact className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="Next.js"
-          icon={<SiNextdotjs className="text-xl text-zinc-400" />}
-        />
+        <SkillElement name="HTML" icon={<SiHtml5 />} />
+        <SkillElement name="CSS" icon={<SiCss3 />} />
+        <SkillElement name="Tailwind" icon={<SiTailwindcss />} />
+        <SkillElement name="React" icon={<SiReact />} />
+        <SkillElement name="Next.js" icon={<SiNextdotjs />} />
       </SkillCategory>
       <SkillCategory name="Backend">
-        <SkillElement
-          name="NestJS"
-          icon={<SiNestjs className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="Prisma"
-          icon={<SiPrisma className="text-xl text-zinc-400" />}
-        />
+        <SkillElement name="NestJS" icon={<SiNestjs />} />
+        <SkillElement name="Prisma" icon={<SiPrisma />} />
       </SkillCategory>
       <SkillCategory name="Tools">
-        <SkillElement
-          name="Git/Github"
-          icon={<SiGithub className="text-xl text-zinc-400" />}
-        />
-        <SkillElement
-          name="Docker"
-          icon={<SiDocker className="text-xl text-zinc-400" />}
-        />
+        <SkillElement name="Git/Github" icon={<SiGithub />} />
+        <SkillElement name="Docker" icon={<SiDocker />} />
       </SkillCategory>
     </div>
   </div>
