@@ -5,7 +5,7 @@ Passionate about computer programming, I'm currently computer sciences student a
 ### 🗂️ Projects
 - [webserv](https://github.com/fluchtens/webserv)
 - [ft_transcendence](https://github.com/fluchtens/ft_transcendence)
-- [fluchtens](https://github.com/fluchtens/fluchtens)
+- [fluchtens](https://fluchtens.com)
 
 ### 📊 Stats
 <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fluchtens&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="fluchtens"/>
