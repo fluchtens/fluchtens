@@ -26,8 +26,8 @@ export const About = () => {
         Full Stack Developer
       </h2>
       <p className="text-sm md:text-lg font-normal text-zinc-400">
-        Passionate about new technologie and computer programming, I'm currently
-        computer sciences student at 19 (@42 Network) in Brussels.
+        Passionate about new technologie and computer programming, I am
+        currently computer sciences student at 19 (@42 Network) in Brussels.
       </p>
       <div className="mt-2 flex items-center gap-2">
         <SocialLink
