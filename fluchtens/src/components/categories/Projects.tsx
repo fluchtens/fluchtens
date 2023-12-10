@@ -1,12 +1,12 @@
 import { CategoryTitle } from "@/components/ui/CategoryTitle";
-import { FaGithub } from "react-icons/fa";
 import { Language, LanguageElement } from "../ui/LanguageElement";
+import { ProjetPicture } from "../ui/ProjecPicture";
+import { SoureCodeBtn } from "../ui/SoureCodeBtn";
 
 interface ProjectElementProps {
   name: string;
   desc: string;
   source: string;
-  reverse: boolean;
   languages: Language[];
 }
 
@@ -14,16 +14,11 @@ const ProjectElement = ({
   name,
   desc,
   source,
-  reverse,
   languages,
 }: ProjectElementProps) => (
   <li className="p-4 rounded-lg bg-secondary">
     <div className="flex-col md:flex-row flex justify-center items-center md:items-start gap-6 text-center md:text-left">
-      <img
-        src="/projects/cub3d/cub3d_1.png"
-        alt="cub3d_1.png"
-        className="md:max-w-[384px] md:max-h-[216px]"
-      />
+      <ProjetPicture name={name} />
       <div className="flex-col flex gap-1">
         <div className="flex justify-center md:justify-between items-center gap-2">
           <label className="text-xl md:text-2xl font-semibold">{name}</label>
@@ -40,24 +35,18 @@ const ProjectElement = ({
   </li>
 );
 
-const SoureCodeBtn = ({ link }: { link: string }) => (
-  <a
-    href={link}
-    className="p-2 flex justify-center items-center rounded-md bg-zinc-700 hover:bg-zinc-600"
-  >
-    <FaGithub className="text-base text-white" />
-  </a>
-);
-
 export const Projects = () => (
   <div className="flex-col flex gap-2 md:gap-5">
     <CategoryTitle title="Projects" />
     <ul className="flex-col flex gap-4">
       <ProjectElement
         name="ft_transcendence"
-        desc="Modern multiplayer pong game web application in React and NestJS made for 42."
+        desc="Modern multiplayer pong game web application in React and NestJS. This is
+        the latest project of the 42 common core, involving the creation of a full
+        stack application with multiplayer online pong as its main objective. It
+        includes many features such as a matchmaking system, statistics, game
+        history, friendship system and real-time chat."
         source="https://github.com/fluchtens/ft_transcendence"
-        reverse={false}
         languages={[
           Language.TypeScript,
           Language.React,
@@ -71,7 +60,6 @@ export const Projects = () => (
           Produced during the common core of 42, this project was inspired by
           the world-famous Wolfenstein 3D game, which was the first FPS ever."
         source="https://github.com/fluchtens/cub3d"
-        reverse={true}
         languages={[Language.C]}
       />
     </ul>

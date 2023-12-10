@@ -8,9 +8,9 @@ export const Header = () => {
           <h1 className="text-lg font-medium">fluchtens</h1>
         </Link>
         <div className="flex gap-3 text-base font-light">
-          <Link href="/">Home</Link>
-          <Link href="/">Skills</Link>
-          <Link href="/">Projects</Link>
+          <Link href="#about">Home</Link>
+          <Link href="#skills">Skills</Link>
+          <Link href="#projects">Projects</Link>
         </div>
       </div>
     </header>

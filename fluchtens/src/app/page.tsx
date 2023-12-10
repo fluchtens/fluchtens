@@ -6,9 +6,15 @@ export default function Home() {
   return (
     <main className="px-4 py-5">
       <div className="max-w-screen-lg m-auto flex-col flex gap-5 md:gap-10">
-        <About />
-        <Skills />
-        <Projects />
+        <div id="about">
+          <About />
+        </div>
+        <div id="skills">
+          <Skills />
+        </div>
+        <div id="projects">
+          <Projects />
+        </div>
       </div>
     </main>
   );
