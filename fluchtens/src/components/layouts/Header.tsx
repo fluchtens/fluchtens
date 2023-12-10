@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { NavLink } from "../ui/NavLink";
 
 export const Header = () => {
   return (
@@ -7,11 +8,7 @@ export const Header = () => {
         <Link href="/">
           <h1 className="text-lg font-medium">fluchtens</h1>
         </Link>
-        <div className="flex gap-3 text-base font-light">
-          <Link href="#about">Home</Link>
-          <Link href="#skills">Skills</Link>
-          <Link href="#projects">Projects</Link>
-        </div>
+        <NavLink />
       </div>
     </header>
   );
