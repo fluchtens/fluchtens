@@ -59,7 +59,7 @@ export const Projects = () => (
         desc="Basic HTTP server written from scratch in C++98. Created during the common
         core of 42, it implements POST, GET and DELETE methods and integrates CGI
         for dynamic pages."
-        source="https://github.com/fluchtens/cub3d"
+        source="https://github.com/fluchtens/webserv"
         languages={[Language.CPlusPlus]}
       />
       <ProjectElement
