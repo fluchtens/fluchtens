@@ -1,4 +1,5 @@
 import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { IoMdMail } from "react-icons/io";
 import { SocialLink } from "../ui/SocialLink";
 
 export const About = () => {
@@ -13,16 +14,24 @@ export const About = () => {
         Passionate about new technologie and computer programming, I am
         currently computer sciences student at 19 (@42 Network) in Brussels.
       </p>
-      <div className="mt-2 flex items-center gap-2">
+      <div className="mt-2 flex-col md:flex-row flex items-center gap-2">
         <SocialLink
           name="Github"
+          mail={false}
           link="https://github.com/fluchtens"
           icon={<FaGithub className="text-xl text-white" />}
         />
         <SocialLink
           name="Linkedin"
+          mail={false}
           link="https://www.linkedin.com/in/fluchtens"
           icon={<FaLinkedin className="text-xl text-white" />}
+        />
+        <SocialLink
+          name="fluchtens.pro@gmail.com"
+          mail={true}
+          link="https://www.linkedin.com/in/fluchtens"
+          icon={<IoMdMail className="text-xl text-white" />}
         />
       </div>
     </div>
