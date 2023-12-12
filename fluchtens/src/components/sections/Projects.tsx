@@ -36,7 +36,7 @@ const ProjectElement = ({
 );
 
 export const Projects = () => (
-  <div className="flex-col flex gap-2 md:gap-5">
+  <section id="projects" className="flex-col flex gap-2 md:gap-5">
     <CategoryTitle title="Projects" />
     <ul className="flex-col flex gap-4">
       <ProjectElement
@@ -71,5 +71,5 @@ export const Projects = () => (
         languages={[Language.C]}
       />
     </ul>
-  </div>
+  </section>
 );

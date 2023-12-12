@@ -43,7 +43,7 @@ const SkillElement = ({ name, icon }: SkillElementProps) => (
 );
 
 export const Skills = () => (
-  <div className="flex-col flex gap-2 md:gap-5">
+  <section id="skills" className="flex-col flex gap-2 md:gap-5">
     <CategoryTitle title="Skills" />
     <div className="flex-col md:flex-row flex justify-between items-center md:items-start gap-3">
       <SkillCategory name="Languages">
@@ -68,5 +68,5 @@ export const Skills = () => (
         <SkillElement name="Docker" icon={<SiDocker />} />
       </SkillCategory>
     </div>
-  </div>
+  </section>
 );
