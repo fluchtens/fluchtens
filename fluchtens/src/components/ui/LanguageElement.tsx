@@ -9,6 +9,7 @@ import {
   SiNextdotjs,
   SiPrisma,
   SiReact,
+  SiSass,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -20,6 +21,7 @@ export enum Language {
   JavaScript,
   HTML,
   CSS,
+  Sass,
   Tailwind,
   React,
   NextJS,
@@ -56,6 +58,10 @@ export const LanguageElement = ({ language }: { language: Language }) => {
       name = "CSS";
       icon = <SiCss3 className="text-xs" />;
       break;
+    case Language.Sass:
+      name = "Sass";
+      icon = <SiSass className="text-xs" />;
+      break;
     case Language.Tailwind:
       name = "Tailwind";
       icon = <SiTailwindcss className="text-xs" />;
@@ -68,7 +74,6 @@ export const LanguageElement = ({ language }: { language: Language }) => {
       name = "Next.js";
       icon = <SiNextdotjs className="text-xs" />;
       break;
-
     case Language.NestJS:
       name = "NestJS";
       icon = <SiNestjs className="text-xs" />;

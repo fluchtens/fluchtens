@@ -50,6 +50,7 @@ export const Projects = () => (
         languages={[
           Language.TypeScript,
           Language.React,
+          Language.Sass,
           Language.NestJS,
           Language.Prisma,
         ]}
