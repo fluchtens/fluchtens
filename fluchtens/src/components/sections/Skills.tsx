@@ -12,6 +12,7 @@ import {
   SiNextdotjs,
   SiPrisma,
   SiReact,
+  SiSass,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -55,6 +56,7 @@ export const Skills = () => (
       <SkillCategory name="Frontend">
         <SkillElement name="HTML" icon={<SiHtml5 />} />
         <SkillElement name="CSS" icon={<SiCss3 />} />
+        <SkillElement name="Sass" icon={<SiSass />} />
         <SkillElement name="Tailwind" icon={<SiTailwindcss />} />
         <SkillElement name="React" icon={<SiReact />} />
         <SkillElement name="Next.js" icon={<SiNextdotjs />} />
