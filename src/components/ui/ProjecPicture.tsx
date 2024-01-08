@@ -1,11 +1,18 @@
 "use client";
 
-// import Image from "next/image";
+interface ProjecPictureProps {
+  name: string;
+  vertical?: boolean;
+}
 
-export const ProjetPicture = ({ name }: { name: string }) => (
+export const ProjetPicture = ({ name, vertical }: ProjecPictureProps) => (
   <img
     src={`/projects/${name}/${name}_1.png`}
     alt={`${name}_1.png`}
-    className="md:max-w-[384px] md:max-h-[216px]"
+    className={`${
+      vertical
+        ? "md:max-w-full md:max-h-full"
+        : "md:max-w-[426px] md:max-h-[260px]"
+    }`}
   />
 );
