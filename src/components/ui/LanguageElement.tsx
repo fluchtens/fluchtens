@@ -15,18 +15,18 @@ import {
 } from "react-icons/si";
 
 export enum Language {
-  C,
-  CPlusPlus,
-  TypeScript,
-  JavaScript,
-  HTML,
-  CSS,
-  Sass,
-  Tailwind,
-  React,
-  NextJS,
-  NestJS,
-  Prisma,
+  C = "C",
+  CPlusPlus = "CPlusPlus",
+  TypeScript = "TypeScript",
+  JavaScript = "JavaScript",
+  HTML = "HTML",
+  CSS = "CSS",
+  Sass = "Sass",
+  Tailwind = "Tailwind",
+  React = "React",
+  NextJS = "NextJS",
+  NestJS = "NestJS",
+  Prisma = "Prisma",
 }
 
 export const LanguageElement = ({ language }: { language: Language }) => {
