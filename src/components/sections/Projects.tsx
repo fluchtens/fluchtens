@@ -28,8 +28,8 @@ const ProjectElement = ({
         </div>
         <p className="text-sm md:text-base font-normal text-zinc-400">{desc}</p>
         <ul className="mt-2 flex-wrap flex justify-center md:justify-normal items-center gap-2">
-          {languages.map((language) => (
-            <LanguageElement language={language} />
+          {languages.map((language, index) => (
+            <LanguageElement key={index} language={language} />
           ))}
         </ul>
       </div>
@@ -41,8 +41,9 @@ export const Projects = () => (
   <section id="projects" className="flex-col flex gap-2 md:gap-5">
     <CategoryTitle title="Projects" />
     <ul className="flex-col flex gap-4">
-      {config.projects.map((project) => (
+      {config.projects.map((project, index) => (
         <ProjectElement
+          key={index}
           name={project.name}
           desc={project.desc}
           source={project.source}
