@@ -1,12 +1,16 @@
-all: run
+all: build
 
-NAME = portfolio
+build: clean
+	docker-compose up --build
 
-build:
-	docker build -t ${NAME} .
+up: down
+	docker-compose down
+	docker-compose up
 
-run: build
-	docker run -p 80:80 -p 443:443 --name ${NAME} ${NAME}
+down:
+	docker-compose down
 
 clean:
-	docker stop ${NAME} && docker rm ${NAME} && docker rmi ${NAME}
+	docker-compose down --rmi all --volumes
+
+.PHONY: all build up down clean

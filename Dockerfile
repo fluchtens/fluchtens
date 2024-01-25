@@ -11,10 +11,7 @@ COPY ./ ./
 RUN pnpm run build
 
 COPY nginx.conf /etc/nginx/http.d/default.conf
-COPY fullchain.pem /etc/nginx/certificats/fullchain.pem
-COPY privkey.pem /etc/nginx/certificats/privkey.pem
 
-EXPOSE 80
-EXPOSE 443
+EXPOSE 8080
 
 CMD ["nginx", "-g", "daemon off;"]
