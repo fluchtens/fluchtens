@@ -1,10 +1,9 @@
 all: build
 
 build: clean
-	docker-compose up --build
+	docker-compose up -d --build
 
 up: down
-	docker-compose down
 	docker-compose up
 
 down:
