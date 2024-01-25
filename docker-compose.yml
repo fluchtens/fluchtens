@@ -5,6 +5,7 @@ services:
     container_name: portfolio-app
     image: portfolio-app
     build:
+      context: ./
       dockerfile: Dockerfile
     ports:
       - 8080:8080
