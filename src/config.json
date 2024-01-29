@@ -3,14 +3,14 @@
     {
       "name": "ft_transcendence",
       "desc": "Modern multiplayer pong game web application in React and NestJS. This is the latest project of the 42 common core, involving the creation of a full stack application with multiplayer online pong as its main objective. It includes many features such as a matchmaking system, statistics, game history, friendship system and real-time chat.",
-      "link": "",
+      "link": "https://pong.fluchtens.com",
       "source": "https://github.com/fluchtens/ft_transcendence",
       "languages": ["React", "TypeScript", "Sass", "NestJS", "Prisma"]
     },
     {
       "name": "react-weather-app",
       "desc": "An interactive weather application created in React and Tailwind that lets you check the weather forecast in real time. I created this application to learn react.",
-      "link": "https://weather.fluchtens.com/",
+      "link": "https://weather.fluchtens.com",
       "source": "https://github.com/fluchtens/react-weather-app",
       "languages": ["React", "TypeScript", "Tailwind"]
     },
