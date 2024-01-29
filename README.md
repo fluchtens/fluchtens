@@ -4,10 +4,10 @@ Passionate about new technologies and computer programming, I am currently compu
 
 ### 🗂️ Projects
 
-- [webserv](https://github.com/fluchtens/webserv)
-- [react-weather-app](https://github.com/fluchtens/react-weather-app)
-- [ft_transcendence](https://github.com/fluchtens/ft_transcendence)
 - [fluchtens](https://fluchtens.com)
+- [ft_transcendence](https://pong.fluchtens.com)
+- [react-weather-app](https://weather.fluchtens.com)
+- [webserv](https://github.com/fluchtens/webserv)
 
 ### 📊 Stats
 
