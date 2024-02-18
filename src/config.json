@@ -8,6 +8,13 @@
       "languages": ["React", "TypeScript", "Sass", "NestJS", "Prisma"]
     },
     {
+      "name": "camagru",
+      "desc": "Small instagram-like site created in PHP and MySQL. The first project of 42 web branch, this is a complete web application whose main objective is to take photos and add filters to publish them.",
+      "link": "",
+      "source": "https://github.com/fluchtens/camagru",
+      "languages": ["HTML", "CSS", "PHP", "MySQL"]
+    },
+    {
       "name": "react-weather-app",
       "desc": "An interactive weather application created in React and Tailwind that lets you check the weather forecast in real time. I created this application to learn react.",
       "link": "https://weather.fluchtens.com",

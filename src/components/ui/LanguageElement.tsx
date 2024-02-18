@@ -5,8 +5,10 @@ import {
   SiCss3,
   SiHtml5,
   SiJavascript,
+  SiMysql,
   SiNestjs,
   SiNextdotjs,
+  SiPhp,
   SiPrisma,
   SiReact,
   SiSass,
@@ -19,6 +21,7 @@ export enum Language {
   CPlusPlus = "CPlusPlus",
   TypeScript = "TypeScript",
   JavaScript = "JavaScript",
+  PHP = "PHP",
   HTML = "HTML",
   CSS = "CSS",
   Sass = "Sass",
@@ -27,6 +30,7 @@ export enum Language {
   NextJS = "NextJS",
   NestJS = "NestJS",
   Prisma = "Prisma",
+  MySQL = "MySQL",
 }
 
 export const LanguageElement = ({ language }: { language: Language }) => {
@@ -49,6 +53,10 @@ export const LanguageElement = ({ language }: { language: Language }) => {
     case Language.TypeScript:
       name = "Typescript";
       icon = <SiTypescript className="text-xs" />;
+      break;
+    case Language.PHP:
+      name = "PHP";
+      icon = <SiPhp className="text-xs" />;
       break;
     case Language.HTML:
       name = "HTML";
@@ -81,6 +89,10 @@ export const LanguageElement = ({ language }: { language: Language }) => {
     case Language.Prisma:
       name = "Prisma";
       icon = <SiPrisma className="text-xs" />;
+      break;
+    case Language.MySQL:
+      name = "MySQL";
+      icon = <SiMysql className="text-xs" />;
       break;
     default:
       name = undefined;
