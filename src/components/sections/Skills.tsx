@@ -8,8 +8,10 @@ import {
   SiGithub,
   SiHtml5,
   SiJavascript,
+  SiMysql,
   SiNestjs,
   SiNextdotjs,
+  SiPhp,
   SiPrisma,
   SiReact,
   SiSass,
@@ -52,6 +54,7 @@ export const Skills = () => (
         <SkillElement name="C++" icon={<SiCplusplus />} />
         <SkillElement name="Javascript" icon={<SiJavascript />} />
         <SkillElement name="Typescript" icon={<SiTypescript />} />
+        <SkillElement name="PHP" icon={<SiPhp />} />
       </SkillCategory>
       <SkillCategory name="Frontend">
         <SkillElement name="HTML" icon={<SiHtml5 />} />
@@ -64,6 +67,7 @@ export const Skills = () => (
       <SkillCategory name="Backend">
         <SkillElement name="NestJS" icon={<SiNestjs />} />
         <SkillElement name="Prisma" icon={<SiPrisma />} />
+        <SkillElement name="MySQL" icon={<SiMysql />} />
       </SkillCategory>
       <SkillCategory name="Tools">
         <SkillElement name="Git/Github" icon={<SiGithub />} />
