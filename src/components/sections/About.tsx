@@ -39,9 +39,9 @@ export const About = () => (
       </div>
     </div>
     <img
-      src="/noavatar.png"
+      src="/fluchten.jpeg"
       alt="avatar"
-      className="max-w-40 md:max-w-48	max-h-40 md:max-h-48 w-auto rounded-full"
+      className="max-w-40 md:max-w-52	max-h-40 md:max-h-52 w-auto rounded-full pointer-events-none"
     />
   </section>
 );
