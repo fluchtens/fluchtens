@@ -9,6 +9,7 @@ const config: Config = require("@/config.json");
 interface ProjectElementProps {
   name: string;
   desc: string;
+  fullDesc: string;
   link: string;
   source: string;
   languages: Language[];
@@ -17,13 +18,14 @@ interface ProjectElementProps {
 const ProjectElement = ({
   name,
   desc,
+  fullDesc,
   link,
   source,
   languages,
 }: ProjectElementProps) => (
   <li className="max-w-[20rem] h-auto p-3 sm:p-4 rounded-lg bg-secondary">
     <div className="flex-col flex justify-center items-center sm:items-start gap-3 text-center sm:text-left">
-      <ProjetPicture name={name} />
+      <ProjetPicture name={name} desc={fullDesc} languages={languages} />
       <div className="flex-col flex gap-1">
         <div className="flex justify-center sm:justify-between items-center gap-2">
           <label className="text-lg font-semibold">{name}</label>
@@ -52,6 +54,7 @@ export const Projects = () => (
           key={index}
           name={project.name}
           desc={project.desc}
+          fullDesc={project.full_desc}
           link={project.link}
           source={project.source}
           languages={project.languages}
