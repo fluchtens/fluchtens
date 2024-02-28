@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { Language, LanguageElement } from "./LanguageElement";
+import { Language } from "./LanguageElement";
 import { ProjectModal } from "./ProjectModal";
 
 interface ProjecPictureProps {
