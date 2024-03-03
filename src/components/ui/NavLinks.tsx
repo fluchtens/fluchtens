@@ -13,13 +13,25 @@ export const NavLinks = () => {
 
   return (
     <div className="flex gap-3 text-base font-light">
-      <Link href="#about" onClick={handleScroll}>
+      <Link
+        href="#about"
+        onClick={handleScroll}
+        className="hover:text-zinc-400"
+      >
         About
       </Link>
-      <Link href="#skills" onClick={handleScroll}>
+      <Link
+        href="#skills"
+        onClick={handleScroll}
+        className="hover:text-zinc-400"
+      >
         Skills
       </Link>
-      <Link href="#projects" onClick={handleScroll}>
+      <Link
+        href="#projects"
+        onClick={handleScroll}
+        className="hover:text-zinc-400"
+      >
         Projects
       </Link>
     </div>
