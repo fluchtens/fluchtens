@@ -1,6 +1,14 @@
 {
   "projects": [
     {
+      "name": "42Stats",
+      "desc": "Web application in Next.js that retrieves data from the 42 api to display statistics.",
+      "full_desc": "Web application in Next.js that retrieves data from the 42 api to display statistics.",
+      "link": "",
+      "source": "https://github.com/fluchtens/42Stats",
+      "languages": ["NextJS", "TypeScript", "Tailwind", "Prisma"]
+    },
+    {
       "name": "ft_transcendence",
       "desc": "Multiplayer pong game full stack web application in React and NestJS.",
       "full_desc": "Modern multiplayer pong game web application in React and NestJS. This is the latest project of the 42 common core, involving the creation of a full stack application with multiplayer online pong as its main objective. It includes many features such as a matchmaking system, statistics, game history, friendship system and real-time chat.",
