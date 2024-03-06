@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { Language } from "./LanguageElement";
 import { ProjectModal } from "./ProjectModal";
 
@@ -10,12 +10,16 @@ interface ProjecPictureProps {
   languages: Language[];
 }
 
-export const ProjetPicture = ({
-  name,
-  desc,
-  languages,
-}: ProjecPictureProps) => {
+export const ProjetPicture = ({ name, desc, languages }: ProjecPictureProps) => {
   const [isModalOpen, setIsModalOpen] = useState(false);
+
+  useEffect(() => {
+    if (isModalOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "auto";
+    }
+  }, [isModalOpen]);
 
   return (
     <>
