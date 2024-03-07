@@ -7,7 +7,7 @@ export const Header = () => (
       <Link href="/">
         <h1 className="text-lg font-medium">fluchtens</h1>
       </Link>
-      <NavLinks />
+      {/* <NavLinks /> */}
     </div>
   </header>
 );
