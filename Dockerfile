@@ -1,17 +1,16 @@
 FROM node:lts-alpine
 
-RUN apk update && apk add nginx && npm install -g pnpm
+RUN apk update && \
+    npm install -g pnpm
 
 WORKDIR /app
 
-COPY package.json pnpm-lock.yaml ./
+COPY package.json .
 RUN pnpm install
-COPY ./ ./
+COPY . .
 
 RUN pnpm run build
 
-COPY nginx.conf /etc/nginx/http.d/default.conf
-
 EXPOSE 80
 
-CMD ["nginx", "-g", "daemon off;"]
+CMD ["pnpm", "run", "start"]
