@@ -1,3 +1,5 @@
+"use server";
+
 import { FiExternalLink } from "react-icons/fi";
 
 export const ViewProjectBtn = ({ link }: { link: string }) => (

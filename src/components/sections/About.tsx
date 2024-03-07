@@ -1,3 +1,6 @@
+"use server";
+
+import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
 import { SocialLink } from "../ui/SocialLink";
@@ -36,10 +39,12 @@ export const About = () => (
         />
       </div>
     </div>
-    <img
+    <Image
       src="/fluchten.jpg"
       alt="avatar"
-      className="max-w-40 md:max-w-52	max-h-40 md:max-h-52 w-auto rounded-full pointer-events-none"
+      width={208}
+      height={208}
+      className="rounded-full pointer-events-none"
     />
   </section>
 );

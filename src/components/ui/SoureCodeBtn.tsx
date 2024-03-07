@@ -1,3 +1,5 @@
+"use server";
+
 import { FaGithub } from "react-icons/fa";
 
 export const SoureCodeBtn = ({ link }: { link: string }) => (

@@ -1,5 +1,7 @@
-import { ReactNode } from "react";
+"use server";
+
 import { CategoryTitle } from "@/components/ui/CategoryTitle";
+import { ReactNode } from "react";
 import {
   SiCoursera,
   SiCplusplus,
@@ -27,9 +29,7 @@ interface SkillCategoryProps {
 const SkillCategory = ({ name, children }: SkillCategoryProps) => (
   <div className="flex-col flex justify-center items-center gap-1 text-center">
     <label className="text-xl md:text-2xl font-semibold">{name}</label>
-    <ul className="flex-col flex text-base md:text-lg font-medium text-zinc-400">
-      {children}
-    </ul>
+    <ul className="flex-col flex text-base md:text-lg font-medium text-zinc-400">{children}</ul>
   </div>
 );
 

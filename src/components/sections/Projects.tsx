@@ -1,9 +1,11 @@
+"use server";
+
 import { CategoryTitle } from "@/components/ui/CategoryTitle";
+import { Config } from "@/types/config.interface";
 import { Language, LanguageElement } from "../ui/LanguageElement";
 import { ProjetPicture } from "../ui/ProjecPicture";
 import { SoureCodeBtn } from "../ui/SoureCodeBtn";
 import { ViewProjectBtn } from "../ui/ViewProjectBtn";
-import { Config } from "@/types/config.interface";
 const config: Config = require("@/config.json");
 
 interface ProjectElementProps {
@@ -15,14 +17,7 @@ interface ProjectElementProps {
   languages: Language[];
 }
 
-const ProjectElement = ({
-  name,
-  desc,
-  fullDesc,
-  link,
-  source,
-  languages,
-}: ProjectElementProps) => (
+const ProjectElement = ({ name, desc, fullDesc, link, source, languages }: ProjectElementProps) => (
   <li className="max-w-[20rem] h-auto p-4 rounded-lg bg-secondary overflow-hidden">
     <div className="flex-col flex gap-3">
       <ProjetPicture name={name} desc={fullDesc} languages={languages} />
