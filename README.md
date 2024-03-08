@@ -2,10 +2,11 @@
 
 Passionate about new technologies and computer programming, I am currently computer sciences student at 19 (@42 Network) in Brussels.
 
-### 🗂️ Projects
+### 🗂️ Featured Projects
 
 - [fluchtens](https://fluchtens.com)
 - [ft_transcendence](https://pong.fluchtens.com)
+- [42stats](https://github.com/fluchtens/42Stats)
 - [react-weather-app](https://weather.fluchtens.com)
 
 ### 📊 Stats
