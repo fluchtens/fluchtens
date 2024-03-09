@@ -6,7 +6,7 @@
       "full_desc": "Web application in Next.js that retrieves data from the 42 api to display statistics.",
       "link": "",
       "source": "https://github.com/fluchtens/42Stats",
-      "languages": ["NextJS", "TypeScript", "Tailwind", "Prisma"]
+      "languages": ["React", "NextJS", "TypeScript", "Tailwind", "Prisma"]
     },
     {
       "name": "ft_transcendence",
@@ -20,7 +20,7 @@
       "name": "camagru",
       "desc": "Small instagram-like site created in PHP and MySQL.",
       "full_desc": "Small instagram-like site created in PHP and MySQL. The first project of 42 web branch, this is a complete web application whose main objective is to take photos and add filters to publish them.",
-      "link": "",
+      "link": "https://camagru.fluchtens.com",
       "source": "https://github.com/fluchtens/camagru",
       "languages": ["HTML", "CSS", "PHP", "MySQL"]
     },
