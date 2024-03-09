@@ -41,7 +41,7 @@ const ProjectElement = ({ name, desc, fullDesc, link, source, languages }: Proje
 );
 
 export const Projects = () => (
-  <section id="projects" className="flex-col flex gap-4 md:gap-5">
+  <section id="projects" className="flex-col flex items-center gap-4 md:gap-5">
     <CategoryTitle title="Projects" />
     <ul className="flex-wrap flex justify-center gap-3">
       {config.projects.map((project, index) => (
@@ -56,5 +56,12 @@ export const Projects = () => (
         />
       ))}
     </ul>
+    <a
+      href="https://github.com/fluchtens?tab=repositories"
+      target="_blank"
+      className="px-3 py-2 rounded-xl bg-zinc-700 hover:bg-zinc-600"
+    >
+      See more
+    </a>
   </section>
 );
