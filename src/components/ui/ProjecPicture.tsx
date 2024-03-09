@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import { useEffect, useState } from "react";
 import { Language } from "./LanguageElement";
 import { ProjectModal } from "./ProjectModal";
@@ -25,11 +24,9 @@ export const ProjetPicture = ({ name, desc, languages }: ProjecPictureProps) => 
   return (
     <>
       <button onClick={() => setIsModalOpen(true)}>
-        <Image
+        <img
           src={`/projects/${name}/${name}_1.webp`}
           alt={`${name}_1.webp`}
-          width={500}
-          height={500}
           className="w-auto rounded pointer-events-none"
         />
       </button>
