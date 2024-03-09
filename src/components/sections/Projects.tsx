@@ -59,7 +59,7 @@ export const Projects = () => (
     <a
       href="https://github.com/fluchtens?tab=repositories"
       target="_blank"
-      className="px-3 py-2 rounded-xl bg-zinc-700 hover:bg-zinc-600"
+      className="px-3 py-2 rounded-xl bg-zinc-700 hover:bg-zinc-600 text-sm font-normal"
     >
       See more
     </a>
