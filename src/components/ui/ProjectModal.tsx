@@ -17,8 +17,8 @@ export const ProjectModal = ({ name, desc, languages, close }: ProjectModalProps
       </button>
       <h1 className="text-lg md:text-2xl font-semibold">{name}</h1>
       <img
-        src={`/projects/${name}/${name}_1.png`}
-        alt={`${name}_1.png`}
+        src={`/projects/${name}/${name}_1.webp`}
+        alt={`${name}_1.webp`}
         className="w-auto rounded-lg pointer-events-none"
       />
       <p className="text-sm md:text-base font-normal text-zinc-400">{desc}</p>

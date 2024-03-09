@@ -26,8 +26,8 @@ export const ProjetPicture = ({ name, desc, languages }: ProjecPictureProps) => 
     <>
       <button onClick={() => setIsModalOpen(true)}>
         <Image
-          src={`/projects/${name}/${name}_1.png`}
-          alt={`${name}_1.png`}
+          src={`/projects/${name}/${name}_1.webp`}
+          alt={`${name}_1.webp`}
           width={500}
           height={500}
           className="w-auto rounded pointer-events-none"
