@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Language, LanguageElement } from "./LanguageElement";
 
 interface ProjectModalProps {
@@ -16,10 +17,12 @@ export const ProjectModal = ({ name, desc, languages, close }: ProjectModalProps
         <p className="text-xl font-medium">X</p>
       </button>
       <h1 className="text-lg md:text-2xl font-semibold">{name}</h1>
-      <img
+      <Image
         src={`/projects/${name}/${name}_1.webp`}
         alt={`${name}_1.webp`}
-        className="w-auto rounded-lg pointer-events-none"
+        width={768}
+        height={432}
+        className="rounded-lg pointer-events-none"
       />
       <p className="text-sm md:text-base font-normal text-zinc-400">{desc}</p>
       <ul className="flex-wrap flex items-center gap-2">
