@@ -40,7 +40,7 @@ export const About = () => (
       </div>
     </div>
     <Image
-      src="/fluchten.jpg"
+      src="/fluchten.webp"
       alt="avatar"
       width={208}
       height={208}
