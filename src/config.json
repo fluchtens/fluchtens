@@ -4,7 +4,7 @@
       "name": "42Stats",
       "desc": "Web application in Next.js that retrieves data from the 42 api to display statistics.",
       "full_desc": "Web application in Next.js that retrieves data from the 42 api to display statistics.",
-      "link": "",
+      "link": "https://42stats.fluchtens.com",
       "source": "https://github.com/fluchtens/42Stats",
       "languages": ["React", "NextJS", "TypeScript", "Tailwind", "Prisma"]
     },
@@ -28,7 +28,7 @@
       "name": "react-weather-app",
       "desc": "An interactive weather application created in React and Tailwind.",
       "full_desc": "An interactive weather application created in React and Tailwind that lets you check the weather forecast in real time. I created this application to learn react.",
-      "link": "https://weather.fluchtens.com",
+      "link": "",
       "source": "https://github.com/fluchtens/react-weather-app",
       "languages": ["React", "TypeScript", "Tailwind"]
     },
