@@ -7,7 +7,7 @@ Passionate about new technologies and computer programming, I am currently compu
 - [fluchtens](https://fluchtens.com)
 - [ft_transcendence](https://pong.fluchtens.com)
 - [camagru](https://camagru.fluchtens.com)
-- [42Stats](https://github.com/fluchtens/42Stats)
+- [42Stats](https://42stats.fluchtens.com)
 
 ### 📊 Stats
 
