@@ -2,7 +2,7 @@
 
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { SocialLink } from "../ui/SocialLink";
+import { SocialLink } from "./ui/SocialLink";
 
 export const About = () => (
   <section

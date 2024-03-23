@@ -1,4 +1,4 @@
-import { Language } from "@/components/ui/LanguageElement";
+import { Language } from "@/components/sections/Projects/ui/LanguageElement";
 
 export interface Project {
   name: string;

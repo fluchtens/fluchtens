@@ -2,10 +2,10 @@
 
 import { CategoryTitle } from "@/components/ui/CategoryTitle";
 import { Config } from "@/types/config.interface";
-import { Language, LanguageElement } from "../ui/LanguageElement";
-import { ProjetPicture } from "../ui/ProjecPicture";
-import { SoureCodeBtn } from "../ui/SoureCodeBtn";
-import { ViewProjectBtn } from "../ui/ViewProjectBtn";
+import { Language, LanguageElement } from "./ui/LanguageElement";
+import { ProjetPicture } from "./ui/ProjecPicture";
+import { SoureCodeBtn } from "./ui/SoureCodeBtn";
+import { ViewProjectBtn } from "./ui/ViewProjectBtn";
 const config: Config = require("@/config.json");
 
 interface ProjectElementProps {
