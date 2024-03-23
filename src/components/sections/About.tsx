@@ -14,8 +14,8 @@ export const About = () => (
       <h1 className="text-3xl md:text-6xl font-bold">Francois Luchtens</h1>
       <h2 className="text-xl md:text-3xl font-semibold text-zinc-400">Full Stack Developer</h2>
       <p className="text-sm md:text-lg font-normal text-zinc-400">
-        Passionate about new technologies and computer programming, I am currently computer sciences
-        student at 19 (@42 Network) in Brussels.
+        Junior web developer, passionate about new technologies and computer programming. Alumni at
+        19 (42 Network) in Brussels.
       </p>
       <div className="mt-2 flex-col md:flex-row flex items-center gap-2">
         <SocialLink
