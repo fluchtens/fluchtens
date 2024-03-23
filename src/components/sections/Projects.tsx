@@ -18,7 +18,7 @@ interface ProjectElementProps {
 }
 
 const ProjectElement = ({ name, desc, fullDesc, link, source, languages }: ProjectElementProps) => (
-  <li className="max-w-[20rem] h-auto p-4 rounded-lg bg-secondary overflow-hidden">
+  <li className="max-w-[20rem] h-auto p-4 rounded-lg bg-card overflow-hidden">
     <div className="flex-col flex gap-3">
       <ProjetPicture name={name} desc={fullDesc} languages={languages} />
       <div className="flex-col flex gap-1">

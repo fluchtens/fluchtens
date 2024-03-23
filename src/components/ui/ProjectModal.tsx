@@ -11,7 +11,7 @@ interface ProjectModalProps {
 
 export const ProjectModal = ({ name, desc, languages, close }: ProjectModalProps) => (
   <div className="fixed top-0 left-0 w-full h-full md:p-4 bg-black bg-opacity-50 flex justify-center items-center">
-    <div className="relative max-w-screen-md h-full md:h-auto p-4 md:p-6 flex-col flex gap-3 bg-secondary rounded:none md:rounded-xl overflow-y-auto">
+    <div className="relative max-w-screen-md h-full md:h-auto p-4 md:p-6 flex-col flex gap-3 bg-card rounded:none md:rounded-xl overflow-y-auto">
       <button className="absolute top-0 right-0 px-4 py-3 hover:text-zinc-400" onClick={close}>
         <p className="text-xl font-medium">X</p>
       </button>
