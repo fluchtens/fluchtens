@@ -9,7 +9,7 @@ const montserrat = Montserrat({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "Francois Luchtens - Full Stack Developer",
   description:
-    "Passionate about new technologies and computer programming, I am currently computer sciences student at 19 (@42 Network) in Brussels.",
+    "Junior web developer, passionate about new technologies and computer programming. Alumni at 19 (42 Network) in Brussels.",
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
