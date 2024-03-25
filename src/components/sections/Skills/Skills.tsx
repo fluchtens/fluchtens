@@ -14,6 +14,7 @@ import {
   SiNestjs,
   SiNextdotjs,
   SiPhp,
+  SiPostgresql,
   SiPrisma,
   SiReact,
   SiSass,
@@ -68,6 +69,7 @@ export const Skills = () => (
         <SkillElement name="NestJS" icon={<SiNestjs />} />
         <SkillElement name="Prisma" icon={<SiPrisma />} />
         <SkillElement name="MySQL" icon={<SiMysql />} />
+        <SkillElement name="PostgreSQL" icon={<SiPostgresql />} />
       </SkillCategory>
       <SkillCategory name="Tools">
         <SkillElement name="Git/Github" icon={<SiGithub />} />
