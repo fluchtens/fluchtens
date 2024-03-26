@@ -11,6 +11,7 @@ import {
   SiNestjs,
   SiNextdotjs,
   SiPhp,
+  SiPostgresql,
   SiPrisma,
   SiReact,
   SiSass,
@@ -33,6 +34,7 @@ export enum Language {
   NestJS = "NestJS",
   Prisma = "Prisma",
   MySQL = "MySQL",
+  PostgreSQL = "PostgreSQL",
 }
 
 export const LanguageElement = ({ language }: { language: Language }) => {
@@ -95,6 +97,10 @@ export const LanguageElement = ({ language }: { language: Language }) => {
     case Language.MySQL:
       name = "MySQL";
       icon = <SiMysql className="text-xs" />;
+      break;
+    case Language.PostgreSQL:
+      name = "PostgreSQL";
+      icon = <SiPostgresql className="text-xs" />;
       break;
     default:
       name = undefined;
