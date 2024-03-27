@@ -3,9 +3,10 @@
 import { CategoryTitle } from "@/components/ui/CategoryTitle";
 import { Config } from "@/types/config.interface";
 import { Language, LanguageElement } from "./ui/LanguageElement";
-import { ProjetModal } from "./ui/ProjecPicture";
+import { ProjectModal } from "./ui/ProjectModal";
 import { SoureCodeBtn } from "./ui/SoureCodeBtn";
 import { ViewProjectBtn } from "./ui/ViewProjectBtn";
+
 const config: Config = require("@/config.json");
 
 interface ProjectElementProps {
@@ -20,7 +21,7 @@ interface ProjectElementProps {
 const ProjectElement = ({ name, desc, fullDesc, link, source, languages }: ProjectElementProps) => (
   <li className="max-w-[20rem] h-auto p-4 rounded-lg bg-card overflow-hidden">
     <div className="flex-col flex gap-3">
-      <ProjetModal name={name} desc={fullDesc} languages={languages} />
+      <ProjectModal name={name} desc={fullDesc} languages={languages} />
       <div className="flex-col flex gap-1">
         <div className="flex justify-between items-center gap-2">
           <label className="text-lg font-semibold">{name}</label>
