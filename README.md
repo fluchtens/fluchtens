@@ -9,7 +9,7 @@ Full stack developer, passionate about new technologies and computer programming
 - [camagru](https://camagru.fluchtens.com)
 - [42Stats](https://42stats.fluchtens.com)
 
-### 🗂️ Current projects
+### 🔭 Current Projects
 - [matcha](https://github.com/fluchtens/matcha)
 
 ### 📊 Stats
