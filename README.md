@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-Passionate about new technologies and computer programming, I am currently computer sciences student at 19 (@42 Network) in Brussels.
+Full stack developer, passionate about new technologies and computer programming. Alumni at 19 (42 Network) in Brussels.
 
 ### 🗂️ Featured Projects
 
