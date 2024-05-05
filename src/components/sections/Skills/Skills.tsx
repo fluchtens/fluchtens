@@ -7,6 +7,7 @@ import {
   SiCplusplus,
   SiCss3,
   SiDocker,
+  SiExpress,
   SiGithub,
   SiHtml5,
   SiJavascript,
@@ -66,6 +67,7 @@ export const Skills = () => (
         <SkillElement name="Next.js" icon={<SiNextdotjs />} />
       </SkillCategory>
       <SkillCategory name="Backend">
+        <SkillElement name="Express.js" icon={<SiExpress />} />
         <SkillElement name="NestJS" icon={<SiNestjs />} />
         <SkillElement name="Prisma" icon={<SiPrisma />} />
         <SkillElement name="MySQL" icon={<SiMysql />} />
