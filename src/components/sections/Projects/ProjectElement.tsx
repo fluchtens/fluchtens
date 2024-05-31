@@ -30,7 +30,7 @@ export const ProjectElement = ({
   languages,
 }: ProjectElementProps) => (
   <Dialog>
-    <DialogTrigger className="p-2 h-full flex flex-col rounded-xl bg-card border text-left">
+    <DialogTrigger className="p-2 h-full flex flex-col rounded-xl bg-card hover:bg-card/80 text-left">
       <img
         src={`/projects/${name}/${name}_1.webp`}
         alt={`${name}_1.webp`}
