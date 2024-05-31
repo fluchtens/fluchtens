@@ -34,6 +34,14 @@
       "languages": ["React", "TypeScript", "Tailwind"]
     },
     {
+      "name": "digital-booster",
+      "desc": "Digital Booster landing page in Next.js, SCSS and GSAP.",
+      "full_desc": "Digital Booster landing page in Next.js, SCSS and GSAP. Integration of a design from a Figma model.",
+      "link": "https://expansion-eight.vercel.app",
+      "source": "https://github.com/fluchtens/expansion/tree/main",
+      "languages": ["NextJS", "TypeScript", "Sass"]
+    },
+    {
       "name": "webserv",
       "desc": "Basic HTTP server written from scratch in C++98.",
       "full_desc": "Basic HTTP server written from scratch in C++98. Created during the common core of 42, it implements POST, GET and DELETE methods and integrates CGI for dynamic pages.",
