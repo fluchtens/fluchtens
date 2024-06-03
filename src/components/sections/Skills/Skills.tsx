@@ -16,6 +16,7 @@ import {
   SiNextdotjs,
   SiPhp,
   SiPostgresql,
+  SiPostman,
   SiPrisma,
   SiReact,
   SiSass,
@@ -76,6 +77,7 @@ export const Skills = () => (
       <SkillCategory name="Tools">
         <SkillElement name="Git/Github" icon={<SiGithub />} />
         <SkillElement name="Docker" icon={<SiDocker />} />
+        <SkillElement name="Postman" icon={<SiPostman />} />
       </SkillCategory>
     </div>
   </section>
