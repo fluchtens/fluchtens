@@ -1,20 +1,26 @@
 "use client";
 
 import { ReactNode } from "react";
+import { FaJava } from "react-icons/fa";
 import {
+  SiAngular,
   SiCoursera,
   SiCplusplus,
   SiCss3,
+  SiExpress,
+  SiHibernate,
   SiHtml5,
   SiJavascript,
   SiMysql,
   SiNestjs,
   SiNextdotjs,
+  SiNodedotjs,
   SiPhp,
   SiPostgresql,
   SiPrisma,
   SiReact,
   SiSass,
+  SiSpringboot,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -24,17 +30,26 @@ export enum Language {
   CPlusPlus = "CPlusPlus",
   TypeScript = "TypeScript",
   JavaScript = "JavaScript",
+  Java = "Java",
   PHP = "PHP",
+
   HTML = "HTML",
   CSS = "CSS",
   Sass = "Sass",
   Tailwind = "Tailwind",
   React = "React",
   NextJS = "NextJS",
+  Angular = "Angular",
+
+  NodeJS = "NodeJS",
+  ExpressJS = "ExpressJS",
   NestJS = "NestJS",
-  Prisma = "Prisma",
+  SpringBoot = "SpringBoot",
+
   MySQL = "MySQL",
   PostgreSQL = "PostgreSQL",
+  Prisma = "Prisma",
+  Hibernate = "Hibernate",
 }
 
 export const LanguageElement = ({ language }: { language: Language }) => {
@@ -50,18 +65,23 @@ export const LanguageElement = ({ language }: { language: Language }) => {
       name = "C++";
       icon = <SiCplusplus className="text-xs" />;
       break;
+    case Language.TypeScript:
+      name = "Typescript";
+      icon = <SiTypescript className="text-xs" />;
+      break;
     case Language.JavaScript:
       name = "JavaScript";
       icon = <SiJavascript className="text-xs" />;
       break;
-    case Language.TypeScript:
-      name = "Typescript";
-      icon = <SiTypescript className="text-xs" />;
+    case Language.Java:
+      name = "Java";
+      icon = <FaJava className="text-xs" />;
       break;
     case Language.PHP:
       name = "PHP";
       icon = <SiPhp className="text-xs" />;
       break;
+
     case Language.HTML:
       name = "HTML";
       icon = <SiHtml5 className="text-xs" />;
@@ -86,14 +106,28 @@ export const LanguageElement = ({ language }: { language: Language }) => {
       name = "Next.js";
       icon = <SiNextdotjs className="text-xs" />;
       break;
+    case Language.Angular:
+      name = "Angular";
+      icon = <SiAngular className="text-xs" />;
+      break;
+
+    case Language.NodeJS:
+      name = "Node.js";
+      icon = <SiNodedotjs className="text-xs" />;
+      break;
+    case Language.ExpressJS:
+      name = "Express.js";
+      icon = <SiExpress className="text-xs" />;
+      break;
     case Language.NestJS:
       name = "NestJS";
       icon = <SiNestjs className="text-xs" />;
       break;
-    case Language.Prisma:
-      name = "Prisma";
-      icon = <SiPrisma className="text-xs" />;
+    case Language.SpringBoot:
+      name = "Spring Boot";
+      icon = <SiSpringboot className="text-xs" />;
       break;
+
     case Language.MySQL:
       name = "MySQL";
       icon = <SiMysql className="text-xs" />;
@@ -101,6 +135,14 @@ export const LanguageElement = ({ language }: { language: Language }) => {
     case Language.PostgreSQL:
       name = "PostgreSQL";
       icon = <SiPostgresql className="text-xs" />;
+      break;
+    case Language.Prisma:
+      name = "Prisma";
+      icon = <SiPrisma className="text-xs" />;
+      break;
+    case Language.Hibernate:
+      name = "Hibernate";
+      icon = <SiHibernate className="text-xs" />;
       break;
     default:
       name = undefined;

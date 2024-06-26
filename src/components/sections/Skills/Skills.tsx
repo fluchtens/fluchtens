@@ -2,24 +2,30 @@
 
 import { CategoryTitle } from "@/components/ui/CategoryTitle";
 import { ReactNode } from "react";
+import { FaJava } from "react-icons/fa";
 import {
+  SiAngular,
   SiCoursera,
   SiCplusplus,
   SiCss3,
   SiDocker,
   SiExpress,
+  SiGit,
   SiGithub,
+  SiHibernate,
   SiHtml5,
   SiJavascript,
   SiMysql,
   SiNestjs,
   SiNextdotjs,
+  SiNodedotjs,
   SiPhp,
   SiPostgresql,
   SiPostman,
   SiPrisma,
   SiReact,
   SiSass,
+  SiSpringboot,
   SiTailwindcss,
   SiTypescript,
 } from "react-icons/si";
@@ -57,6 +63,7 @@ export const Skills = () => (
         <SkillElement name="C++" icon={<SiCplusplus />} />
         <SkillElement name="Javascript" icon={<SiJavascript />} />
         <SkillElement name="Typescript" icon={<SiTypescript />} />
+        <SkillElement name="Java" icon={<FaJava />} />
         <SkillElement name="PHP" icon={<SiPhp />} />
       </SkillCategory>
       <SkillCategory name="Frontend">
@@ -66,16 +73,23 @@ export const Skills = () => (
         <SkillElement name="Tailwind" icon={<SiTailwindcss />} />
         <SkillElement name="React" icon={<SiReact />} />
         <SkillElement name="Next.js" icon={<SiNextdotjs />} />
+        <SkillElement name="Angular" icon={<SiAngular />} />
       </SkillCategory>
       <SkillCategory name="Backend">
+        <SkillElement name="Node.js" icon={<SiNodedotjs />} />
         <SkillElement name="Express.js" icon={<SiExpress />} />
         <SkillElement name="NestJS" icon={<SiNestjs />} />
-        <SkillElement name="Prisma" icon={<SiPrisma />} />
+        <SkillElement name="Spring Boot" icon={<SiSpringboot />} />
+      </SkillCategory>
+      <SkillCategory name="Database">
         <SkillElement name="MySQL" icon={<SiMysql />} />
         <SkillElement name="PostgreSQL" icon={<SiPostgresql />} />
+        <SkillElement name="Prisma" icon={<SiPrisma />} />
+        <SkillElement name="Hibernate" icon={<SiHibernate />} />
       </SkillCategory>
       <SkillCategory name="Tools">
-        <SkillElement name="Git/Github" icon={<SiGithub />} />
+        <SkillElement name="Git" icon={<SiGit />} />
+        <SkillElement name="Github" icon={<SiGithub />} />
         <SkillElement name="Docker" icon={<SiDocker />} />
         <SkillElement name="Postman" icon={<SiPostman />} />
       </SkillCategory>

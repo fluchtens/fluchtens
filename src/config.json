@@ -2,6 +2,14 @@
   "repositories": "https://github.com/fluchtens?tab=repositories",
   "projects": [
     {
+      "name": "taskly",
+      "desc": "Web application to manage your day in Java Spring Boot and Angular.",
+      "full_desc": "Web application to manage your day in Java Spring Boot and Angular.",
+      "link": "",
+      "source": "https://github.com/fluchtens/taskly",
+      "languages": ["Java", "SpringBoot", "Angular", "TypeScript", "Tailwind"]
+    },
+    {
       "name": "42Stats",
       "desc": "User statistics web application in Next.js using the 42 api.",
       "full_desc": "Web application in Next.js that retrieves data from the 42 api to display statistics.",
