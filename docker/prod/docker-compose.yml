@@ -5,8 +5,8 @@ services:
     container_name: portfolio-app
     image: portfolio-app
     build:
-      context: ./
-      dockerfile: Dockerfile
+      context: ../../app
+      dockerfile: prod.Dockerfile
     ports:
       - 80:80
     networks:

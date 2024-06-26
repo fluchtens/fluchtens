@@ -1,0 +1,21 @@
+version: "3"
+
+services:
+  app:
+    container_name: portfolio-app
+    image: portfolio-app
+    build:
+      context: ../../app
+      dockerfile: dev.Dockerfile
+    ports:
+      - 3000:3000
+    volumes:
+      - ../../app:/app
+      - /app/node_modules
+    networks:
+      - portfolio_network
+    restart: always
+
+networks:
+  portfolio_network:
+    name: portfolio_network

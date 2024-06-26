@@ -1,20 +1,29 @@
+MODE=dev
+COMPOSE_FILE = docker/${MODE}/docker-compose.yml
+DOCKER_COMPOSE = docker-compose -f ${COMPOSE_FILE}
+
 all: build
 
-build:
-	docker-compose up -d --build
+build: clean
+	${DOCKER_COMPOSE} up --build
 
 up: down
-	docker-compose -d up
+	${DOCKER_COMPOSE} up
 
 down:
-	docker-compose down
+	${DOCKER_COMPOSE} down
+
+prune:
+	docker system prune -f
 
 clean:
-	docker-compose down --rmi all
+	${DOCKER_COMPOSE} down --rmi all
+	@make prune
 
 fclean:
-	docker-compose down --rmi all --volumes
+	${DOCKER_COMPOSE} down --rmi all --volumes
+	@make prune
 
-.PHONY: all build up down clean fclean
+.PHONY: all build up down prune clean fclean
 
 .SILENT:
