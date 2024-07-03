@@ -11,6 +11,9 @@ endif
 
 all: build
 
+install:
+	cd app && pnpm install
+
 build: clean
 	${DOCKER_COMPOSE} -p ${PROJECT} up --build ${RUN_FLAGS}
 

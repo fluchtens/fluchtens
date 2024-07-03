@@ -1,69 +1,102 @@
 {
-  "repositories": "https://github.com/fluchtens?tab=repositories",
+  "name": "Francois Luchtens",
+  "job": "Full Stack Developer",
+  "desc": "Web developer, passionate about computer programming and projet creation, always keen to learn new technologies. Alumni at 19 (42 Network) in Brussels.",
+  "links": {
+    "github": "https://github.com/fluchtens",
+    "linkedin": "https://www.linkedin.com/in/fluchtens",
+    "mail": "fluchtens.pro@gmail.com",
+    "source_code": "https://github.com/fluchtens/fluchtens",
+    "repositories": "https://github.com/fluchtens?tab=repositories"
+  },
   "projects": [
     {
-      "name": "taskly",
-      "desc": "Web application to manage your day in Java Spring Boot and Angular.",
-      "full_desc": "Web application to manage your day in Java Spring Boot and Angular.",
-      "link": "",
-      "source": "https://github.com/fluchtens/taskly",
-      "languages": ["Java", "SpringBoot", "Hibernate", "Angular", "TypeScript", "Tailwind"]
-    },
-    {
       "name": "42Stats",
-      "desc": "User statistics web application in Next.js using the 42 api.",
-      "full_desc": "Web application in Next.js that retrieves data from the 42 api to display statistics.",
+      "desc": "Web application in Java Spring Boot and Next.js for 42 users to discover detailed information and statistics retrieved from 42 API.",
+      "full_desc": "Web application in Java Spring Boot and Next.js for 42 users to discover detailed information and statistics retrieved from 42 API.",
       "link": "https://42stats.fluchtens.com",
       "source": "https://github.com/fluchtens/42Stats",
-      "languages": ["React", "NextJS", "TypeScript", "Tailwind", "Prisma", "PostgreSQL"]
+      "languages": ["Java", "SpringBoot", "Hibernate", "MySQL", "TypeScript", "React", "NextJS", "Tailwind"],
+      "images": ["projects/42Stats/42Stats_1.webp", "projects/42Stats/42Stats_2.webp"]
+    },
+    {
+      "name": "Taskly",
+      "desc": "Web application to manage your day in Java Spring Boot and Angular. Plan your tasks to boost productivity.",
+      "full_desc": "Web application to manage your day in Java Spring Boot and Angular. Plan your tasks to boost productivity.",
+      "link": "",
+      "source": "https://github.com/fluchtens/taskly",
+      "languages": ["Java", "SpringBoot", "Hibernate", "MySQL", "TypeScript", "Angular", "Tailwind"],
+      "images": ["projects/taskly/taskly_1.webp"]
     },
     {
       "name": "ft_transcendence",
-      "desc": "Multiplayer pong game web application in React and NestJS.",
+      "desc": "Modern multiplayer pong game web application in React and NestJS. Win matches against your opponents to increase your rank.",
       "full_desc": "Modern multiplayer pong game web application in React and NestJS. This is the latest project of the 42 common core, involving the creation of a full stack application with multiplayer online pong as its main objective. It includes many features such as a matchmaking system, statistics, game history, friendship system and real-time chat.",
       "link": "https://pong.fluchtens.com",
       "source": "https://github.com/fluchtens/ft_transcendence",
-      "languages": ["React", "TypeScript", "Sass", "NestJS", "Prisma", "PostgreSQL"]
+      "languages": ["React", "TypeScript", "Sass", "NestJS", "Prisma", "PostgreSQL"],
+      "images": [
+        "projects/ft_transcendence/ft_transcendence_1.webp",
+        "projects/ft_transcendence/ft_transcendence_2.webp",
+        "projects/ft_transcendence/ft_transcendence_3.webp",
+        "projects/ft_transcendence/ft_transcendence_4.webp",
+        "projects/ft_transcendence/ft_transcendence_5.webp",
+        "projects/ft_transcendence/ft_transcendence_6.webp"
+      ]
     },
     {
       "name": "camagru",
-      "desc": "Small instagram-like site created in PHP and MySQL.",
-      "full_desc": "Small instagram-like site created in PHP and MySQL. The first project of 42 web branch, this is a complete web application whose main objective is to take photos and add filters to publish them.",
+      "desc": "Instagram-like site in PHP using MVC architecture. Import or take photos, add filters and share them!",
+      "full_desc": "Instagram-like site created in PHP MVC architecture and MySQL. The first project of 42 web branch, this is a complete web application whose main objective is to take photos and add filters to publish them.",
       "link": "https://camagru.fluchtens.com",
       "source": "https://github.com/fluchtens/camagru",
-      "languages": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"]
+      "languages": ["HTML", "CSS", "JavaScript", "PHP", "MySQL"],
+      "images": [
+        "projects/camagru/camagru_1.webp",
+        "projects/camagru/camagru_2.webp",
+        "projects/camagru/camagru_3.webp",
+        "projects/camagru/camagru_4.webp",
+        "projects/camagru/camagru_5.webp",
+        "projects/camagru/camagru_6.webp",
+        "projects/camagru/camagru_7.webp",
+        "projects/camagru/camagru_8.webp"
+      ]
     },
     {
       "name": "react-weather-app",
-      "desc": "Interactive weather web application created in React and Tailwind.",
-      "full_desc": "An interactive weather application created in React and Tailwind that lets you check the weather forecast in real time. I created this application to learn react.",
+      "desc": "An interactive weather application created in React and Tailwind CSS that lets you check the weather forecast in real time.",
+      "full_desc": "An interactive weather application created in React and Tailwind that lets you check the weather forecast in real time.",
       "link": "",
       "source": "https://github.com/fluchtens/react-weather-app",
-      "languages": ["React", "TypeScript", "Tailwind"]
+      "languages": ["React", "TypeScript", "Tailwind"],
+      "images": ["projects/react-weather-app/react-weather-app_1.webp"]
     },
     {
       "name": "digital-booster",
-      "desc": "Digital Booster landing page in Next.js, SCSS and GSAP.",
+      "desc": "Digital Booster landing page in Next.js, SCSS and GSAP. Integration of a design from a Figma model.",
       "full_desc": "Digital Booster landing page in Next.js, SCSS and GSAP. Integration of a design from a Figma model.",
       "link": "https://expansion-eight.vercel.app",
       "source": "https://github.com/fluchtens/expansion/tree/main",
-      "languages": ["NextJS", "TypeScript", "Sass"]
+      "languages": ["React", "NextJS", "TypeScript", "Sass"],
+      "images": ["projects/digital-booster/digital-booster_1.webp"]
     },
     {
       "name": "webserv",
-      "desc": "Basic HTTP server written from scratch in C++98.",
+      "desc": "Basic HTTP server written from scratch in C++98 that implements POST, GET and DELETE methods and integrated CGI for dynamic pages.",
       "full_desc": "Basic HTTP server written from scratch in C++98. Created during the common core of 42, it implements POST, GET and DELETE methods and integrates CGI for dynamic pages.",
       "link": "",
       "source": "https://github.com/fluchtens/webserv",
-      "languages": ["CPlusPlus"]
+      "languages": ["CPlusPlus"],
+      "images": ["projects/webserv/webserv_1.webp"]
     },
     {
       "name": "cub3d",
-      "desc": "A simple 3D raycasting rendering in C inspired by Wolfenstein 3D.",
+      "desc": "A simple 3D raycasting rendering in C using MiniLibX library inspired by Wolfenstein 3D.",
       "full_desc": "A simple 3D raycasting rendering in C using the MiniLibX library. Produced during the common core of 42, this project was inspired by the world-famous Wolfenstein 3D game, which was the first FPS ever.",
       "link": "",
       "source": "https://github.com/fluchtens/cub3d",
-      "languages": ["C"]
+      "languages": ["C"],
+      "images": ["projects/cub3d/cub3d_1.webp"]
     }
   ]
 }
