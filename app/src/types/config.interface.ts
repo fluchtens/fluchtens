@@ -10,6 +10,7 @@ export interface Project {
 }
 
 export interface Config {
+  repository: string;
   repositories: string;
   projects: Project[];
 }
