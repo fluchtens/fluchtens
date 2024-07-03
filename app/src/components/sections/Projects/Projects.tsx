@@ -6,7 +6,7 @@ import { CategoryTitle } from "@/components/utils/category-title";
 import { Config } from "@/types/config.interface";
 import Link from "next/link";
 import { FiExternalLink } from "react-icons/fi";
-import { ProjectElement } from "./ProjectElement";
+import { ProjectElement } from "./project-element";
 
 const config: Config = require("@/config.json");
 
@@ -25,6 +25,7 @@ export const Projects = () => (
               link={project.link}
               source={project.source}
               languages={project.languages}
+              images={project.images}
             />
           </CarouselItem>
         ))}

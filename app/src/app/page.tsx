@@ -1,7 +1,7 @@
 "use server";
 
 import { About } from "@/components/sections/about/about";
-import { Projects } from "@/components/sections/Projects/Projects";
+import { Projects } from "@/components/sections/projects/projects";
 import { Skills } from "@/components/sections/skills/skills";
 
 export default async function Home() {

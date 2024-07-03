@@ -81,7 +81,6 @@ export const LanguageElement = ({ language }: { language: Language }) => {
       name = "PHP";
       icon = <SiPhp className="text-xs" />;
       break;
-
     case Language.HTML:
       name = "HTML";
       icon = <SiHtml5 className="text-xs" />;
@@ -110,7 +109,6 @@ export const LanguageElement = ({ language }: { language: Language }) => {
       name = "Angular";
       icon = <SiAngular className="text-xs" />;
       break;
-
     case Language.NodeJS:
       name = "Node.js";
       icon = <SiNodedotjs className="text-xs" />;
@@ -127,7 +125,6 @@ export const LanguageElement = ({ language }: { language: Language }) => {
       name = "Spring Boot";
       icon = <SiSpringboot className="text-xs" />;
       break;
-
     case Language.MySQL:
       name = "MySQL";
       icon = <SiMysql className="text-xs" />;
