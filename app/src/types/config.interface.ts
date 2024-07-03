@@ -9,8 +9,18 @@ export interface Project {
   languages: Language[];
 }
 
-export interface Config {
-  repository: string;
+interface Links {
+  github: string;
+  linkedin: string;
+  mail: string;
+  source_code: string;
   repositories: string;
+}
+
+export interface Config {
+  name: string;
+  job: string;
+  desc: string;
+  links: Links;
   projects: Project[];
 }

@@ -1,13 +1,7 @@
 "use server";
 
 import { Button } from "@/components/ui/button";
-import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
+import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
 import { CategoryTitle } from "@/components/ui/CategoryTitle";
 import { Config } from "@/types/config.interface";
 import Link from "next/link";
@@ -39,7 +33,7 @@ export const Projects = () => (
       <CarouselNext className="right-0" />
     </Carousel>
     <Button asChild variant="default" className="px-3 py-2">
-      <Link href={config.repositories} target="_blank" className="flex items-center gap-1.5">
+      <Link href={config.links.repositories} target="_blank" className="flex items-center gap-1.5">
         <FiExternalLink className="text-base text-primary-foreground" />
         See more
       </Link>

@@ -9,7 +9,7 @@ const config: Config = require("@/config.json");
 export const GithubButton = async () => {
   return (
     <Button variant="ghost" size="icon" asChild>
-      <Link href={config.repository} target="_blank">
+      <Link href={config.links.source_code} target="_blank">
         <GitHubLogoIcon className="h-[1.2rem] w-[1.2rem]" />
       </Link>
     </Button>

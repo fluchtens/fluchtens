@@ -1,6 +1,14 @@
 {
-  "repository": "https://github.com/fluchtens/fluchtens",
-  "repositories": "https://github.com/fluchtens?tab=repositories",
+  "name": "Francois Luchtens",
+  "job": "Full Stack Developer",
+  "desc": "Web developer, passionate about computer programming and projet creation, always keen to learn new technologies. Alumni at 19 (42 Network) in Brussels.",
+  "links": {
+    "github": "https://github.com/fluchtens",
+    "linkedin": "https://www.linkedin.com/in/fluchtens",
+    "mail": "fluchtens.pro@gmail.com",
+    "source_code": "https://github.com/fluchtens/fluchtens",
+    "repositories": "https://github.com/fluchtens?tab=repositories"
+  },
   "projects": [
     {
       "name": "taskly",
