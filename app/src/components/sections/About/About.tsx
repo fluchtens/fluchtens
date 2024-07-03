@@ -1,5 +1,6 @@
 "use server";
 
+import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Config } from "@/types/config.interface";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
@@ -19,6 +20,9 @@ export const About = () => (
         <SocialLink name={config.links.mail} mail={true} link={config.links.mail} icon={<IoMdMail className="text-xl text-white" />} />
       </div>
     </div>
-    <img src="/fluchten.webp" alt="avatar" className="max-w-40 md:max-w-52	max-h-40 md:max-h-52 w-auto rounded-full pointer-events-none" />
+    <Avatar className="w-40 md:w-52 h-40 md:h-52">
+      <AvatarImage src="/fluchten.webp" alt="picture" />
+      <AvatarFallback>FL</AvatarFallback>
+    </Avatar>
   </section>
 );
