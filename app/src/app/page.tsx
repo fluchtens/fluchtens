@@ -1,6 +1,6 @@
 "use server";
 
-import { About } from "@/components/sections/About/About";
+import { About } from "@/components/sections/about/about";
 import { Projects } from "@/components/sections/Projects/Projects";
 import { Skills } from "@/components/sections/Skills/Skills";
 

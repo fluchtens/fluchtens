@@ -4,7 +4,7 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar";
 import { Config } from "@/types/config.interface";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { IoMdMail } from "react-icons/io";
-import { SocialLink } from "./ui/SocialLink";
+import { SocialLink } from "./social-link";
 const config: Config = require("@/config.json");
 
 export const About = () => (
