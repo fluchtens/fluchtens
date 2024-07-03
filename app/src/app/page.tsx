@@ -2,7 +2,7 @@
 
 import { About } from "@/components/sections/about/about";
 import { Projects } from "@/components/sections/Projects/Projects";
-import { Skills } from "@/components/sections/Skills/Skills";
+import { Skills } from "@/components/sections/skills/skills";
 
 export default async function Home() {
   return (

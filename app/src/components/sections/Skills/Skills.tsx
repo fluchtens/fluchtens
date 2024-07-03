@@ -1,6 +1,6 @@
 "use server";
 
-import { CategoryTitle } from "@/components/ui/CategoryTitle";
+import { CategoryTitle } from "@/components/utils/category-title";
 import { ReactNode } from "react";
 import { FaJava } from "react-icons/fa";
 import {
@@ -30,24 +30,14 @@ import {
   SiTypescript,
 } from "react-icons/si";
 
-interface SkillCategoryProps {
-  name: string;
-  children: ReactNode;
-}
-
-const SkillCategory = ({ name, children }: SkillCategoryProps) => (
+const SkillCategory = ({ name, children }: { name: string; children: ReactNode }) => (
   <div className="flex-col flex justify-center items-center gap-1 text-center">
-    <label className="text-xl md:text-2xl font-semibold">{name}</label>
-    <ul className="flex-col flex text-base md:text-lg font-medium text-zinc-400">{children}</ul>
+    <label className="text-xl lg:text-2xl font-semibold">{name}</label>
+    <ul className="flex-col flex text-base lg:text-lg font-medium text-muted-foreground">{children}</ul>
   </div>
 );
 
-interface SkillElementProps {
-  name: string;
-  icon: ReactNode;
-}
-
-const SkillElement = ({ name, icon }: SkillElementProps) => (
+const SkillElement = ({ name, icon }: { name: string; icon: ReactNode }) => (
   <li className="flex justify-center items-center gap-1.5">
     {icon}
     <span className="">{name}</span>
@@ -76,10 +66,10 @@ export const Skills = () => (
         <SkillElement name="Angular" icon={<SiAngular />} />
       </SkillCategory>
       <SkillCategory name="Backend">
+        <SkillElement name="Spring Boot" icon={<SiSpringboot />} />
         <SkillElement name="Node.js" icon={<SiNodedotjs />} />
         <SkillElement name="Express.js" icon={<SiExpress />} />
         <SkillElement name="NestJS" icon={<SiNestjs />} />
-        <SkillElement name="Spring Boot" icon={<SiSpringboot />} />
       </SkillCategory>
       <SkillCategory name="Database">
         <SkillElement name="MySQL" icon={<SiMysql />} />

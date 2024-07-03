@@ -2,7 +2,7 @@
 
 import { Button } from "@/components/ui/button";
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from "@/components/ui/carousel";
-import { CategoryTitle } from "@/components/ui/CategoryTitle";
+import { CategoryTitle } from "@/components/utils/category-title";
 import { Config } from "@/types/config.interface";
 import Link from "next/link";
 import { FiExternalLink } from "react-icons/fi";
