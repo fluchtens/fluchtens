@@ -16,7 +16,7 @@
       "full_desc": "Web application in Java Spring Boot and Next.js for 42 users to discover detailed information and statistics retrieved from 42 API.",
       "link": "https://42stats.fluchtens.com",
       "source": "https://github.com/fluchtens/42Stats",
-      "languages": ["Java", "SpringBoot", "Hibernate", "MySQL", "TypeScript", "React", "NextJS", "Tailwind"],
+      "languages": ["React", "NextJS", "TypeScript", "Tailwind", "Java", "SpringBoot", "Hibernate", "MySQL"],
       "images": ["projects/42Stats/42Stats_1.webp", "projects/42Stats/42Stats_2.webp"]
     },
     {
@@ -25,7 +25,7 @@
       "full_desc": "Web application to manage your day in Java Spring Boot and Angular. Plan your tasks to boost productivity.",
       "link": "",
       "source": "https://github.com/fluchtens/taskly",
-      "languages": ["Java", "SpringBoot", "Hibernate", "MySQL", "TypeScript", "Angular", "Tailwind"],
+      "languages": ["Angular", "TypeScript", "Tailwind", "Java", "SpringBoot", "Hibernate", "MySQL"],
       "images": ["projects/taskly/taskly_1.webp"]
     },
     {
@@ -34,14 +34,19 @@
       "full_desc": "Modern multiplayer pong game web application in React and NestJS. This is the latest project of the 42 common core, involving the creation of a full stack application with multiplayer online pong as its main objective. It includes many features such as a matchmaking system, statistics, game history, friendship system and real-time chat.",
       "link": "https://pong.fluchtens.com",
       "source": "https://github.com/fluchtens/ft_transcendence",
-      "languages": ["React", "TypeScript", "Sass", "NestJS", "Prisma", "PostgreSQL"],
+      "languages": ["React", "TypeScript", "Tailwind", "NestJS", "Prisma", "PostgreSQL"],
       "images": [
         "projects/ft_transcendence/ft_transcendence_1.webp",
         "projects/ft_transcendence/ft_transcendence_2.webp",
         "projects/ft_transcendence/ft_transcendence_3.webp",
         "projects/ft_transcendence/ft_transcendence_4.webp",
         "projects/ft_transcendence/ft_transcendence_5.webp",
-        "projects/ft_transcendence/ft_transcendence_6.webp"
+        "projects/ft_transcendence/ft_transcendence_6.webp",
+        "projects/ft_transcendence/ft_transcendence_7.webp",
+        "projects/ft_transcendence/ft_transcendence_8.webp",
+        "projects/ft_transcendence/ft_transcendence_9.webp",
+        "projects/ft_transcendence/ft_transcendence_10.webp",
+        "projects/ft_transcendence/ft_transcendence_11.webp"
       ]
     },
     {
