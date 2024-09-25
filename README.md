@@ -9,6 +9,7 @@ Full stack developer, passionate about computer programming and projet creation,
 - [ft_transcendence](https://pong.fluchtens.com)
 - [camagru](https://camagru.fluchtens.com)
 
-<!-- ### 📊 Stats -->
+### 📊 Stats
 
-<!-- <img src="https://github-readme-stats.vercel.app/api/top-langs?username=fluchtens&show_icons=true&locale=en&layout=compact&theme=github_dark" alt="fluchtens"/> -->
+![Github Stats](https://github-readme-stats.vercel.app/api?username=fluchtens&show_icons=true&theme=github_dark)  
+![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=fluchtens&layout=compact&theme=github_dark)
