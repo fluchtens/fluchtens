@@ -36,15 +36,6 @@
       "images": ["projects/42Stats/42Stats_1.webp", "projects/42Stats/42Stats_2.webp"]
     },
     {
-      "name": "Taskly",
-      "desc": "Web application to manage your day in Java Spring Boot and Angular. Plan your tasks to boost productivity.",
-      "full_desc": "Web application to manage your day in Java Spring Boot and Angular. Plan your tasks to boost productivity.",
-      "link": "",
-      "source": "https://github.com/fluchtens/taskly",
-      "languages": ["Angular", "TypeScript", "Tailwind", "Java", "SpringBoot", "Hibernate", "MySQL"],
-      "images": ["projects/taskly/taskly_1.webp"]
-    },
-    {
       "name": "ft_transcendence",
       "desc": "Modern multiplayer pong game web application in React and NestJS. Win matches against your opponents to increase your rank.",
       "full_desc": "Modern multiplayer pong game web application in React and NestJS. This is the latest project of the 42 common core, involving the creation of a full stack application with multiplayer online pong as its main objective. It includes many features such as a matchmaking system, statistics, game history, friendship system and real-time chat.",
@@ -82,6 +73,24 @@
         "projects/camagru/camagru_7.webp",
         "projects/camagru/camagru_8.webp"
       ]
+    },
+    {
+      "name": "Bluesky Explorer",
+      "desc": "Vue.js SPA to search posts from the Bluesky API and export them into an Excel sheet.",
+      "full_desc": "Bluesky Explorer is a front-end SPA in Vue.js 3 that allows users to search for relevant publications from the Bluesky API and export them into an Excel sheet.",
+      "link": "",
+      "source": "https://github.com/fluchtens/bluesky-explorer",
+      "languages": ["Vue", "TypeScript", "CSS"],
+      "images": ["projects/bluesky-explorer/bluesky-explorer_1.webp"]
+    },
+    {
+      "name": "Taskly",
+      "desc": "Web application to manage your day in Java Spring Boot and Angular. Plan your tasks to boost productivity.",
+      "full_desc": "Web application to manage your day in Java Spring Boot and Angular. Plan your tasks to boost productivity.",
+      "link": "",
+      "source": "https://github.com/fluchtens/taskly",
+      "languages": ["Angular", "TypeScript", "Tailwind", "Java", "SpringBoot", "Hibernate", "MySQL"],
+      "images": ["projects/taskly/taskly_1.webp"]
     },
     {
       "name": "react-weather-app",

@@ -23,6 +23,7 @@ import {
   SiSpringboot,
   SiTailwindcss,
   SiTypescript,
+  SiVuedotjs,
 } from "react-icons/si";
 
 export enum Language {
@@ -39,6 +40,7 @@ export enum Language {
   Tailwind = "Tailwind",
   React = "React",
   NextJS = "NextJS",
+  Vue = "Vue",
   Angular = "Angular",
 
   NodeJS = "NodeJS",
@@ -104,6 +106,10 @@ export const LanguageElement = ({ language }: { language: Language }) => {
     case Language.NextJS:
       name = "Next.js";
       icon = <SiNextdotjs className="text-xs" />;
+      break;
+    case Language.Vue:
+      name = "Vue";
+      icon = <SiVuedotjs className="text-xs" />;
       break;
     case Language.Angular:
       name = "Angular";
