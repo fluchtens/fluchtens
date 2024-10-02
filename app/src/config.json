@@ -9,6 +9,22 @@
     "source_code": "https://github.com/fluchtens/fluchtens",
     "repositories": "https://github.com/fluchtens?tab=repositories"
   },
+  "education": [
+    {
+      "name": "Campus 19 (42 Network)",
+      "desc": "Software Programming",
+      "image": "education/42.webp",
+      "link": "https://campus19.be/",
+      "date": "2022 - Present"
+    },
+    {
+      "name": "Institut Technique Saint-Gabriel",
+      "desc": "CESS - Marketing",
+      "image": "education/itsg.webp",
+      "link": "https://wp.saint-gabriel.be/",
+      "date": "2020 - 2022"
+    }
+  ],
   "projects": [
     {
       "name": "42Stats",
