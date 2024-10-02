@@ -10,9 +10,9 @@ export default async function Home() {
     <main className="px-4 sm:px-6 py-16 flex-1">
       <div className="max-w-screen-lg m-auto flex-col flex gap-5 md:gap-10">
         <About />
-        <Skills />
-        <Education />
         <Projects />
+        <Education />
+        <Skills />
       </div>
     </main>
   );
