@@ -2,6 +2,7 @@ import { Footer } from "@/components/layouts/footer";
 import { Header } from "@/components/layouts/header";
 import type { Metadata, Viewport } from "next";
 import { Montserrat } from "next/font/google";
+import Head from "next/head";
 import "../styles/globals.css";
 
 const montserrat = Montserrat({ subsets: ["latin"] });
@@ -22,6 +23,9 @@ export const viewport: Viewport = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en">
+      <Head>
+        <link rel="canonical" href="https://www.fluchtens.com/" />
+      </Head>
       <body className={`min-h-screen m-auto flex flex-col ${montserrat.className}`}>
         <Header />
         {children}
