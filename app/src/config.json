@@ -78,7 +78,7 @@
       "name": "Bluesky Explorer",
       "desc": "Vue.js SPA to search posts from the Bluesky API and export them into an Excel sheet.",
       "full_desc": "Bluesky Explorer is a front-end SPA in Vue.js 3 that allows users to search for relevant publications from the Bluesky API and export them into an Excel sheet.",
-      "link": "",
+      "link": "https://bluesky-explorer.vercel.app/",
       "source": "https://github.com/fluchtens/bluesky-explorer",
       "languages": ["Vue", "TypeScript", "CSS"],
       "images": ["projects/bluesky-explorer/bluesky-explorer_1.webp"]
@@ -127,6 +127,15 @@
       "source": "https://github.com/fluchtens/cub3d",
       "languages": ["C"],
       "images": ["projects/cub3d/cub3d_1.webp"]
+    },
+    {
+      "name": "so_long",
+      "desc": "A simple 2D game in C with MiniLibX.",
+      "full_desc": "A simple 2D game in C with MiniLibX made for 42.",
+      "link": "",
+      "source": "https://github.com/fluchtens/so_long",
+      "languages": ["C"],
+      "images": ["projects/so_long/so_long_1.webp"]
     }
   ]
 }
